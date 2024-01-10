@@ -75,3 +75,27 @@ body{
     background-color: #fff;
     border-radius: 0px 20px 20px 0px;
 }
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 20px;
+}
+
+.dropdown{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.dropdown > img, .lights > img{
+    cursor: pointer;
+}
+
+.dropdown > img:nth-child(2){
+    width: 18px;
+    height: 18px;
+}
