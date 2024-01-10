@@ -62,7 +62,7 @@ body{
 }
 
 .leftt{
-    width: 360px;
+    width: 370px;
     height: 580px;
     background-color: #fff;
     border-right: 2px solid #000;
@@ -103,6 +103,7 @@ body{
 .main-content{
     margin-top: 20px;
     display: flex;
+    gap: 14px;
 }
 
 .left-main{
@@ -146,7 +147,8 @@ body{
 .unread{
     position: absolute;
     top: 3px;
-    left: 34px;
+    cursor: pointer;
+    left: 38px;
     background-color: #B3261E;
     color: white;
     border-radius: 50%;
@@ -155,5 +157,43 @@ body{
     justify-content: center;
     width: 14px;
     height: 14px;
+    font-size: 12px;
+}
+
+.right-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 4;
+}
+
+.input{
+    position: relative;
+}
+
+.right-main > .input > input{
+    width: 220px;
+    padding: 8px 16px 8px 28px;
+    border: none;
+    color: #677882;
     font-size: 14px;
+    border-radius: 10px;
+    background-color: #F0F2F5;
+}
+.right-main > .input > input:focus{
+    outline: none;
+}
+
+.search{
+    position: absolute;
+    cursor: pointer;
+    left: 10px;
+    top: 7px;
+}
+
+.filter{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    right: 22px;
 }
