@@ -112,7 +112,7 @@ body{
     display: flex;
     flex-direction: column;
     gap: 20px;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     padding-left: 4px;
     color: #677882;
@@ -164,12 +164,15 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 5px;
     flex: 4;
+    height: 522px; /* Adjust this height as needed */
+    overflow: hidden;
+    /* height:100%; */
 }
 
 .input{
     position: relative;
-    margin-bottom: 10px;
 }
 
 .right-main > .input > input{
@@ -206,7 +209,7 @@ body{
 }
 
 .pers{
-    width: 260px;
+    width: 276px;
     display: flex;
     gap: 10px;
     justify-content: center;
