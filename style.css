@@ -103,7 +103,7 @@ body{
 .main-content{
     margin-top: 20px;
     display: flex;
-    gap: 14px;
+    gap: 10px;
 }
 
 .left-main{
@@ -169,6 +169,7 @@ body{
 
 .input{
     position: relative;
+    margin-bottom: 10px;
 }
 
 .right-main > .input > input{
@@ -196,4 +197,36 @@ body{
     cursor: pointer;
     top: 10px;
     right: 22px;
+}
+
+.pers > img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.pers{
+    width: 260px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.msg{
+    width: 100%;
+    display: flex;
+    gap: 8px;
+    flex-direction: column;
+    color: #829C99;
+}
+
+.upper, .lower{
+    display: flex;
+    justify-content: space-between;
+}
+
+.dark{
+    color: #3B4A54;
+    font-weight: 700;
 }
