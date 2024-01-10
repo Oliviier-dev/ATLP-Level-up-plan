@@ -17,29 +17,38 @@ body{
     position: relative;
     width: 100%;
     min-height: 100vh;
-    background: url(resources/image\ 2\ \(1\).png), lightgray 50% / cover no-repeat;
+    background: lightgray url('resources/image 2 (1).png') 50% 50% / cover no-repeat;
 }
 
 .header{
     position: absolute;
     height: 24px; 
     width: 100%;
-    background: url(resources/Menu\ Bar\ Background.png);
+    background: url(resources/Menu\ Bar\ Background.png) 50% 50% / cover no-repeat;
     color: #fff;
     display: flex;
     align-items: center;
-    justify-content: ;
+    justify-content: space-between;
 }
 
-.header >.left > ul > li{
+.header >.left > ul > li, .header > .right > ul > li{
     list-style: none;
     display: inline;
     cursor: pointer;
 }
 
-.header >.left > ul{
+.header > .left > ul{
     margin: 0px;
     display: flex;
     align-items: center;
     gap: 20px;
+    padding-inline-start: 20px;
+}
+
+.header > .right > ul{
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-inline-end: 20px;
 }
