@@ -333,10 +333,11 @@ body{
     align-items: center;
     margin-top: 20px;
     padding: 8px 24px;
+    font-size: 12px;
     gap: 14px;
     border-radius: 12px;
     background: #FEECDC;
-    width: 500px;  
+    width: 460px;  
 }
 
 .encry > p{
@@ -365,4 +366,89 @@ body{
 
 .chat-options > input:focus{
     outline: none;
+}
+
+.convo-goss >  img:first-child{
+    width: 260px;
+    height: 120px;
+    border: 6px solid #fff;
+    padding: 10px;
+    background-color: #ddd;
+}
+
+.convo{
+    display: flex;
+    width: 88%;
+}
+
+.convo-left{
+    flex: 2.8;
+    margin-top: 50px;
+    position: relative;
+}
+
+.time{
+    background-color: #fff;
+    padding: 6px 12px;
+    position: absolute;
+    left: 100px;
+    bottom: 300px;
+    font-size: 14px;
+    box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.40);
+    border-radius: 10px;
+}
+
+.txtt{
+    margin-top: 6px;
+    font-size: 14px;
+    height: 40px;
+    width: 92%;
+    padding: 0px 4px;
+    background-color: #fff;
+    position: relative;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.txtt > p > span{
+    margin-top: 20px;
+   position: relative;
+   top: 3px;
+}
+
+.txt{
+    font-size: 14px;
+    height: 50px;
+    padding: 0px 4px;
+    background-color: #fff;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 34px;
+}
+
+.txt > span{
+    position: absolute;
+    top: 28px;
+    left: 86%;
+}
+
+.convo-right{
+    flex: 2;
+}
+
+.convo-goss{
+    position: relative;;
+}
+
+.convo-goss > img:nth-child(2){
+    position: absolute;
+    cursor: pointer;
+    top: 70px;
+    right: 4px;
+    background-color: #ddd;
+    border-radius: 50%;
+    padding: 6.282px 4.245px 6.059px 3.875px;
 }
