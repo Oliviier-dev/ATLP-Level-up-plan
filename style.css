@@ -315,4 +315,23 @@ body{
 .chat-options{
     height: 70px;
     background-color: #F6F6F6;
+    padding: 0px 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.chat-options > input {
+    width: 430px;
+    border: none;
+    padding: 12px 30px 12px 24px;
+    border-radius: 20px;
+}
+
+.chat-options > img{
+    cursor: pointer;
+}
+
+.chat-options > input:focus{
+    outline: none;
 }
