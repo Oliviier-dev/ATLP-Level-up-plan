@@ -322,6 +322,25 @@ body{
 
 .main-chat{
     height: 440px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.encry{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding: 8px 24px;
+    gap: 14px;
+    border-radius: 12px;
+    background: #FEECDC;
+    width: 500px;  
+}
+
+.encry > p{
+    margin: 0px;
 }
 
 .chat-options{
