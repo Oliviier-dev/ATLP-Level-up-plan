@@ -307,3 +307,12 @@ body{
 .contact-options > ul > li:nth-child(3){
     cursor: default;
 }
+
+.main-chat{
+    height: 440px;
+}
+
+.chat-options{
+    height: 70px;
+    background-color: #F6F6F6;
+}
