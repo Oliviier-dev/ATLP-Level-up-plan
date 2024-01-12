@@ -134,6 +134,14 @@ body{
     cursor: pointer;
 }
 
+.left-main > div > span{
+    font-size: 12px;
+}
+
+.gre{
+    color: #1DA855;
+}
+
 .chat{
     position: relative;
 }
@@ -427,12 +435,35 @@ body{
     flex-direction: column;
     justify-content: center;
     margin-bottom: 34px;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2); 
+    border-radius: 2px;
+}
+
+.vec{
+    position: absolute;
+    width: 12px;
+    /* border: 2px solid red; */
+    left: -7px;
+    top: 1px;
 }
 
 .txt > span{
     position: absolute;
+    top: 34px;
+    left: 90%;
+    font-size: 11px;
+}
+
+.txtt{
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2); 
+    border-radius: 2px;
+}
+
+.txtt > span{
+    position: absolute;
+    left: 90%;
     top: 28px;
-    left: 86%;
+    font-size: 11px;
 }
 
 .convo-right{
@@ -440,7 +471,12 @@ body{
 }
 
 .convo-goss{
-    position: relative;;
+    position: relative;
+}
+
+.convo-goss > img:first-child{
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2); 
+    border-radius: 2px;
 }
 
 .convo-goss > img:nth-child(2){
@@ -475,4 +511,43 @@ body{
 .convo-right > p:nth-child(2){
     bottom: -40px; 
     left: 40px;  
+}
+
+.first, .sec{
+    font-size: 14px;
+    position: relative;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2); 
+    border-radius: 2px;
+}
+
+.first > span, .sec > span{
+    font-size: 11px;
+    position: absolute;
+    left: 84%;
+    top: 16px;
+}
+
+.unred{
+    position: relative;
+}
+
+.unreadd{
+    position: absolute;
+    top: 3px;
+    cursor: pointer;
+    left: 92%;
+    background-color: #1DA855;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    font-size: 12px;
+}
+
+.joe{
+    background-color: #c4d1cf;
+    border-radius: 4px;
 }
