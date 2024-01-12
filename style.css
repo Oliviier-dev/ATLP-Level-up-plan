@@ -285,11 +285,13 @@ body{
 .person-info > div > h3{
     margin-bottom: 4px;
     margin-top: 0px;
+    font-size: 18px;
 }
 
 .person-info > div > span{
     display: flex;
     gap: 4px;
+    font-size: 13px;
 }
 
 .contact-options > ul > li{
@@ -548,6 +550,6 @@ body{
 }
 
 .joe{
-    background-color: #c4d1cf;
+    background-color: #d2e0de;
     border-radius: 4px;
 }
