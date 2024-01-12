@@ -107,6 +107,7 @@ body{
 }
 
 .left-main{
+    position: relative;
     margin-top: 10px;
     width: 74px;
     display: flex;
@@ -552,4 +553,31 @@ body{
 .joe{
     background-color: #d2e0de;
     border-radius: 4px;
+}
+
+.down{
+    position: absolute;
+    top: 80%;
+}
+
+.down > img:first-child{
+    width: 24px;
+    height: 24px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.down > img:nth-child(2){
+    width: 49px;
+    height: 49px;
+    border-radius: 14px;
+    cursor: default;
+}
+
+.down > img:nth-child(3){
+    width: 11px;
+    height: 11px;
+    position: absolute;
+    top: 88%;
+    left: 38px;
 }
