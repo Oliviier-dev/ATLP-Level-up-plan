@@ -57,3 +57,17 @@ body{
     border-radius: 40px;
     margin-bottom: 22px;
 }
+
+.trouble{
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    color: #000;
+}
+
+.or{
+    margin-bottom: 20px;
+    color: #BBB;
+    font-size: 18px;
+}
+
