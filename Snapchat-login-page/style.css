@@ -71,3 +71,41 @@ body{
     font-size: 18px;
 }
 
+form{
+    width: 263px;
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    margin-bottom: 15px;
+    position: relative;
+    border-bottom: 1px solid #000;
+    color: #BBB;
+    font-size: 14px;
+}
+
+input{
+    width: 263px;
+    padding: 10px 0px;
+    margin-top: 20px;
+    border: none;
+    outline: none;
+}
+
+input::placeholder{
+    opacity: 0;
+}
+
+label > span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateY(30px);
+    transition-duration: 300ms;
+}
+
+label:focus-within > span,
+input:not(:placeholder-shown) + span{
+    transform:translateY(10px);
+}
