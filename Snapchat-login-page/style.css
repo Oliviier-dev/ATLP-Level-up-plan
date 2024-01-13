@@ -16,3 +16,18 @@ body{
     width: 355px;
     height: 612px;
 }
+
+.header{
+    background-color: #FFFC00;
+    width: 355px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.header > img{
+    width: 54px;
+    height: 54px;
+    padding-right: 20px;
+}
